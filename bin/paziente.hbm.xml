@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 14-ago-2019 12.50.51 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+ <class name="Paziente" table="paziente">
+  <id name="CF" column="CF">
+  <generator class="increment"></generator>
+  </id>
+  <property column="nome" generated="never" lazy="false" name="nome"/>
+  <property column="cognome" generated="never" lazy="false" name="cognome"/>
+  <property column="dataRegistrazione" generated="never" lazy="false" name="dataRegistrazione"/>
+  <property column="eta" generated="never" lazy="false" name="eta"/>
+  <property column="percentualeInvalidita" generated="never"  lazy="false" name="percentualeInvalidita"/>
+ </class>
+</hibernate-mapping>

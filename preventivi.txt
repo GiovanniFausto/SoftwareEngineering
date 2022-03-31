@@ -1,0 +1,4 @@
+Preventivo [totalePrezzo=50.0, numero=1, servizi=[Servizio [codiceServizio=1, medico=1, tipo=servizio 1, prezzo=50.0, descrizione=servizio 1]]]
+Preventivo [totalePrezzo=100.0, numero=2, servizi=[Servizio [codiceServizio=2, medico=2, tipo=servizio 2, prezzo=100.0, descrizione=servizio 2]]]
+Preventivo [totalePrezzo=200.0, numero=3, servizi=[Servizio [codiceServizio=3, medico=3, tipo=servizio 3, prezzo=200.0, descrizione=servizio 3]]]
+Preventivo [totalePrezzo=100.0, numero=4, servizi=[Servizio [codiceServizio=2, medico=2, tipo=servizio 2, prezzo=100.0, descrizione=servizio 2]]]
